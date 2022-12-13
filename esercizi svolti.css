@@ -60,7 +60,8 @@
 /* Esercizio 7 */
 
 .ex-7-img:hover {
-    filter: grayscale(50%) contrast(25%) brightness(120%);
+    /* filter: grayscale(50%) contrast(25%) brightness(120%); */
+    filter: grayscale(0.5) opacity(0.1) brightness(2);
 }
 
 .ex-7-img {
@@ -80,11 +81,22 @@
 
 /* Esercizio 9 */
 
+.ex-9-img:hover {
+    filter: brightness(1) sepia(0.8);
+    border-radius: 10px;
+    transform: scale(1.3);
+}
 
+.ex-9-img {
+    transition: 5s;
+}
 
 /* Esercizio 10 */
 
-
+/* .es-10-icon {
+    animation-name: ruota;
+    animation-duration: 5s;
+} */
 
 /* Esercizio 11 */
 
