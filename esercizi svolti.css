@@ -1,0 +1,97 @@
+
+/* Esercizio 1 */
+
+.ex-1-square:hover {
+    background-color: red;
+}
+
+.ex-1-square {
+    transition: 5s;
+}
+
+/* Esercizio 2 */
+
+.ex-2-square:active {
+    width: 80%;
+}
+
+.ex-2-square {
+    transition: 5s;
+}
+
+/* Esercizio 3 */
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+.ex-3-square {
+    transition: 5s;
+}
+
+/* Esercizio 4 */
+
+.ex-4-square:hover {
+    background-color: inherit;
+}
+
+.ex-4-square {
+    transition: 5s;
+}
+
+/* Esercizio 5 - mmh container ballerino, sbaglio cose? */
+
+.ex-5-square:hover {
+    height: 100px;
+    width: 100px;
+}
+
+.ex-5-square:active {
+    height: 30px;
+    width: 30px;
+}
+
+/* Esercizio 6 */
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* Esercizio 7 */
+
+.ex-7-img:hover {
+    filter: grayscale(50%) contrast(25%) brightness(120%);
+}
+
+.ex-7-img {
+    transition: 5s;
+}
+
+/* Esercizio 8 */
+
+.ex-8-img:hover {
+    border-radius: 30%;
+    filter: hue-rotate(180deg) saturate(0.5);
+}
+
+.ex-8-img {
+    transition: 5s;
+}
+
+/* Esercizio 9 */
+
+
+
+/* Esercizio 10 */
+
+
+
+/* Esercizio 11 */
+
+
+
+/* Esercizio 12 */
+
+
+
+/* Esercizio 13 */
