@@ -51,6 +51,10 @@
     width: 30px;
 }
 
+.ex-5-square {
+    transition: 5s;
+}
+
 /* Esercizio 6 */
 
 .ex-6-img:hover {
@@ -93,17 +97,75 @@
 
 /* Esercizio 10 */
 
-/* .es-10-icon {
-    animation-name: ruota;
-    animation-duration: 5s;
-} */
+.ex-10-icon {
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
 
 /* Esercizio 11 */
 
-
+.ex-11-icon:hover {
+    animation: spin75 5s linear;
+}
+@keyframes spin75 {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
 
 /* Esercizio 12 */
 
+.ex-12-top-white {
+    animation: move-top 5s linear;
+}
 
+@keyframes move-top {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+
+    50% {
+        top: -10px;
+        left: 60%;
+    }
+
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-12-bottom-white {
+    animation: move-bot 5s linear;
+}
+
+@keyframes move-bot {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+
+    50% {
+        bottom: -10px;
+        right: 50%;
+    }
+
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
 
 /* Esercizio 13 */
